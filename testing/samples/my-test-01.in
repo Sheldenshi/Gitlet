@@ -1,0 +1,5 @@
+I setup2.inc
+> rm f.txt
+<<<
+* f.txt
++ f.txt wug.txt

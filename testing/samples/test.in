@@ -1,0 +1,7 @@
+# Check that global-log prints out commits that are no longer in any branch.
+I setup2.inc
++ h.txt wug.txt
+> add h.txt
+<<<
+> commit "Add h"
+<<<

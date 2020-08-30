@@ -1,0 +1,31 @@
+# Various error cases for reset
+# Check reset command.
+I setup2.inc
+> branch other
+<<<
++ h.txt wug2.txt
+> add h.txt
+<<<
+> rm g.txt
+<<<
+> commit "Add h.txt and remove g.txt"
+<<<
+> log
+===
+${COMMIT_HEAD}
+Add h.txt and remove g.txt
+
+===
+${COMMIT_HEAD}
+Two files
+
+===
+${COMMIT_HEAD}
+initial commit
+<<<*
+D INIT "${3}"
+D TWO "${2}"
+D MASTER1 "${1}"
+
+> checkout other
+<<<

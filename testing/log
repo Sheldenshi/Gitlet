@@ -1,0 +1,7 @@
+echo 'source $HOME/cs61b-software/adm/login' >> ~/.bash_profile
+source ~/.bash_profile
+;
+
+
+
+
